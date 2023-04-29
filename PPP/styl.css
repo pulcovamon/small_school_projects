@@ -1,0 +1,79 @@
+.styl1 {
+    font-size: 50px;
+    font-weight: 10000;
+    color: darkred;
+    text-align: center;
+    font-family: 'papyrus';
+}
+.styl2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: blanchedalmond;
+    margin: 0px;
+    padding: 5px 10px;
+    font-family: 'papyrus';
+    text-align: center;
+}
+.styl3 {
+    font-size: 20px;
+    color: red;
+    margin: 0px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.styl4 {
+    font-size: 15px;
+    background-color: black;
+}
+p {
+    background-color: black;
+    color: blanchedalmond;
+    font-style: italic;
+    font-family: 'Gill Sans MT';
+    padding: 20px;
+    text-align: justify;
+}
+
+h3 {
+font-family: 'papyrus';
+}
+
+body {
+    margin: 20px 200px;
+}
+.obrazek {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+hr.cara {
+    border-top: 4px solid darkred;
+}
+.styl5 {
+    background-color: blanchedalmond;
+    color: black;
+    font-size: small;
+    margin: 0px;
+    padding: 1px;
+    text-align: left;
+}
+#bez_cary{
+text-decoration: none;
+}
+a:visited {
+    color: darkred
+}
+a:link {
+    color: darkred;
+}
+a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+h3:hover {
+    color: darkolivegreen;
+}
+P:hover {
+    color: darkturquoise;
+}

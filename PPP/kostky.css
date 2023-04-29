@@ -1,0 +1,56 @@
+h1 {
+    color: darkred;
+    font-family: 'Papyrus';
+    font-size: 50px;
+    font-weight: 2000px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+h2 {
+    color: darkred;
+    font-family: 'Papyrus';
+    font-size: 35px;
+    font-weight: 2000px;
+    text-align: center;
+    margin-top: 0px;
+}
+.obrazek {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+.tlacitko {
+    margin: auto;
+    color: blanchedalmond;
+    background-color: darkred;
+    font-size: 30px;
+    font-family: 'Gill Sans MT';
+    border: 5px black;
+}
+button:hover {
+    background-color: darkblue;
+}
+hr.cara {
+    border-top: 4px solid darkred;
+}
+
+div{
+    text-align: center;
+}
+#kostka {
+    background-color: black;
+    color: blanchedalmond;
+    margin-left: 575px;
+    margin-right: 575px;
+    border-radius: 10%;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: darkblue;
+}
+
+a{
+    text-decoration: none;
+}

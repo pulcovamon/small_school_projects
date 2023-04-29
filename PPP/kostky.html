@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kostky</title>
+    <meta charset="UTF-8">
+    <script src="kostky.js"></script>
+    <link rel="stylesheet" type="text/css" href="kostky.css">
+</head>
+<body style="background-color: blanchedalmond;">
+    <h1>Hod kostkou</h1>
+    <h2><a href="http://thief.wz.cz/dokumenty/DrD%20Lite-PH.pdf">pro DnD</a></h2>
+    <img src="dnd_dice.png" alt="obrazek_kostky" class="obrazek">
+    <br>
+        <hr class="cara">
+    <br>
+    <div>
+        <button class="tlacitko" id="d4"onclick="hod_kostkou(4)" >čtyřstěnná</button>
+        <button class="tlacitko" id="d6" onclick="hod_kostkou(6)">šestistěnná</button>
+        <button class="tlacitko" id="d8" onclick="hod_kostkou(8)">osmistěnná</button>
+        <button class="tlacitko" id="d10" onclick="hod_kostkou(10)">desetistěnná</button>
+        <button class="tlacitko" id="dp" onclick="hod_kostkou(100)">procenta</button>
+        <button class="tlacitko" id="d12" onclick="hod_kostkou(12)">dvanáctistěnná</button>
+        <button class="tlacitko" id="d20" onclick="hod_kostkou(20)">dvacetistěnná</button>
+    </div>
+    <div>
+        <h1 id='kostka'></h1>
+    </div>
+</body>
+</html>
