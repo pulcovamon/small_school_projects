@@ -1,0 +1,25 @@
+2: ls
+3: cp ex1.acc myfile.acc
+4: head ex1.acc, head myfile.acc, tail ex1.acc, tail myfile.acc
+5: cp ex1.dat myfile.acc
+6: head myfile.acc
+7: rm myfile.acc
+8: mkdir test, mv ex1.acc test, mv ex1.dat test, mv orphans.sp test
+9: mkdir data, cd test, mv ex1.acc ../data, mv ex1.dat ../data, mv orphans.sp ../data
+10: cd .., rmdir test
+11: cd data, ls, cd ..
+12: mkdir newtest, mkdir newtest/newtest, mkdir newtest/newtest/newtest
+13: mv data newtest/newtest/newtest
+14: cd newtest/newtest/newtest/data, ls
+15: cp ex1.acc ../../../.., cp ex1.dat ../../../.., cp orphans.sp ../../../..
+16: cd ../../../.., rm -rf newtest
+17: wc ex1.*
+18: cat ex1.acc ex1.dat > ex1.tot, head ex1.tot, tail ex1.tot
+19: paste ex1.acc ex1.dat > ex1.tot, head ex1.tot, rm ex1.acc ex1.dat
+20: cut -f1,5 ex1.tot > ex1.res
+21: sort -n -k 2 ex1.res, result: CPA2_HUMAN, POR2_HUMAN, CBPM_HUMAN
+22: grep CDS orphans.sp | wc
+23: grep HUMAN orphans.sp | wc (207), grep HUMAN orphans.sp | grep HYPOTHETICAL | wc (11)
+24: grep _RAT orphans.sp | grep PRECURSOR | wc (9)
+25: grep -v - ex1.res > ex1.pos, grep - ex1.res > ex1.neg
+
